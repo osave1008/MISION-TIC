@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SOCIAL COLUMBIA LIVIA</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src = "nombre.js"></script>
+    </head>
+    <body>
+        <h1>SOCIAL COLUMBIA LIVIA</h1>
+        <h2>BIENVENIDO</h2>
+        <h2>Por favor registra los siguientes datos</h2>
+        <form action="" method="get" name="formRegistro">
+            <p> Nombre: <input type="text" name="nombre" maxlenght="50" id="nombre" /></p>
+            <p> Apellido: <input type="text" name="apellido" maxlenght="50" id="apellido" /></p>
+            <p> Usuario: <input type="text" name="username" maxlenght="50" id="username"/></p>
+            <p> 
+                Sexo <input type="radio" name="sexo" value="h" id="sexo"/> Hombre
+                <input type="radio" name="sexo" value="m" id="sexo"/> Mujer
+            </p>
+            <p> Correo: <input type="text" name="correo" maxlenght="100" id="correo"/></p>
+            <p> Contraseña: <input type="password" name="password" id="password"/></p>
+            <p> Verificar contraseña: <input type="password" name="password" id="password"/></p>
+            <p> 
+                <input type="checkbox" name="condiciones"/> Declaro haber leido los términos y condiciones
+                y acepto las condiciones generales del programa asi como la normativa sobre protección de datos vigente
+            </p>
+            <p>Los terminos y condiciones, asi como la normativa vigente las pueden consultar en el siguiente link</p>
+            <button type="submit" value="Enviar" onclick = "validar_formulario()">Enviar</button>
+        </form>
+    </body>
+</html>
